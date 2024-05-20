@@ -242,6 +242,17 @@ But you can also do that using R.
 You can use \textbf{bookdown} to allow references for Tables and
 Figures.
 
+\begin{figure}
+\centering
+\includegraphics{paper_files/figure-latex/figure1, figure1-1.pdf}
+\caption{Population dynamics from a Gillespie simulation of the Levins
+model with large (N=1000, panel A) and small (N=100, panel B) number of
+sites (blue) show relatively weaker effects of demographic noise in the
+bigger system. Models are otherwise identical, with e = 0.2 and c = 1
+(code in appendix A). Theoretical predictions for mean and plus/minus
+one standard deviation shown in horizontal re dashed lines.}
+\end{figure}
+
 \hypertarget{tables}{%
 \subsection{Tables}\label{tables}}
 
@@ -269,12 +280,6 @@ directly in LaTeX in source Rmd file.
 
 You can also use R code for that. (Hadash et al. 2018; Kour and Saabne
 2014a, 2014b)
-
-\begin{Shaded}
-\begin{Highlighting}[]
-\NormalTok{knitr}\SpecialCharTok{::}\FunctionTok{kable}\NormalTok{(}\FunctionTok{head}\NormalTok{(mtcars), }\AttributeTok{caption =} \StringTok{"Head of mtcars table"}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 22\tabcolsep) * \real{0.2609}}
