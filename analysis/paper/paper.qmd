@@ -1,5 +1,5 @@
 ---
-title: "Title Goes Here"
+title: "Mass Spec and Machone Learning"
 author:
   - Jane Doe:
       correspondence: "yes"
