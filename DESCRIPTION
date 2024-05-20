@@ -13,3 +13,5 @@ RoxygenNote: 7.3.1
 Imports: here
 Suggests: devtools,
     git2r
+URL: https://github.com/sandpiles/massrrcompendium
+BugReports: https://github.com/sandpiles/massrrcompendium/issues
