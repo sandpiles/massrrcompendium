@@ -129,7 +129,7 @@ See awesome Table~\ref{tab:table} which is written directly in LaTeX in source R
   \label{tab:table}
 \end{table}
 
-You can also use R code for that.
+You can also use R code for that. [@hadash2018estimate; @kour2014fast; @kour2014real]
 
 ```{r}
 knitr::kable(head(mtcars), caption = "Head of mtcars table")
