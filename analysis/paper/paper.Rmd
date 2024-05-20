@@ -144,5 +144,3 @@ knitr::kable(head(mtcars), caption = "Head of mtcars table")
 
 # Biblio
 
-
-
